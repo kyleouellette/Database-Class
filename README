@@ -1,1 +1,2 @@
 This is a pretty simple class that will take care of handling database connectivity. I'm sure there are plenty of these out there but this is my take on things. You are more than welcome to pull it and alter it to however you would like, I just ask that you leave the top commented out section in there. 
+I would strongly recommend creating a constants file and defining DB_H, DB_U, DB_P, and DB_N. This will take care of needing to type any parameters into the constructor.
