@@ -22,7 +22,7 @@ function drawCirc(ev){
 
   cxt.beginPath();
   cxt.fillStyle = '#ff00bb';
-  //cxt.shadowBlur = .5;
+ // cxt.shadowBlur = 5;
   cxt.arc(mouseX, mouseY, 10, 0, 2*Math.PI, 1);
   cxt.closePath();
   cxt.fill();
