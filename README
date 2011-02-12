@@ -2,3 +2,5 @@ This is a pretty simple class that will take care of handling database connectiv
 I would strongly recommend creating a constants file and defining DB_H, DB_U, DB_P, and DB_N. This will take care of needing to type any parameters into the constructor.
 
 This Database class only works with mysql at the time. Future support for SQLite is on the way!
+
+thinking about leaving out support for other databases.
